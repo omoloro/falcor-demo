@@ -1,0 +1,18 @@
+{
+  "name": "falcor-gateway",
+  "version": "1.0.0",
+  "description": "Demo Gateway for falcor",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "omoloro",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "falcor-express": "^0.1.2",
+    "falcor-router": "^0.2.12",
+    "request-promise": "^2.0.0"
+  }
+}

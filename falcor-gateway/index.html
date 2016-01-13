@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="falcor.browser.js"></script>
+    <script>
+        var model = new falcor.Model({
+            source: new falcor.HttpDataSource('/users')
+        });
+        model.
+            get("users[124].['username','first_name','last_name','balance'").
+                then(function(response) {
+                    console.log(response);
+                    document.write(JSON.stringify(response.json));
+                }).catch(function(requestError){
+                    console.log(requestError);
+                });
+    </script>
+    <meta charset="UTF-8">
+    <title>Api Client</title>
+</head>
+<body>
+</body>
+</html>
