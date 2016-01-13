@@ -1,4 +1,4 @@
-This is a demo API Gateway built using falcor
+This is a demo API Gateway built using Falcor. The video for this demo is at https://youtu.be/o5NSUUFDQyk
 
 The main gateway is in falcor-gateway
 
